@@ -270,7 +270,7 @@
 
 .contacts-link:hover .contacts-text,
 .contacts-link:focus .contacts-text {
-  fill: #2196F3;
+  color: #2196F3;
 }
 
 .portfolio-header {

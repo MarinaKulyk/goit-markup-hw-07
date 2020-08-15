@@ -65,9 +65,10 @@
 }
 .contacts-text {
     @extend %transforms;
+
     .contacts-link:hover &,
     .contacts-link:focus & {
-         fill: $akcent-color;
+         color: $akcent-color;
     }
 }
 .portfolio-header {
