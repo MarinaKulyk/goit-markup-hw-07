@@ -1,0 +1,38 @@
+/* Секция Преимущества */
+.superiority,
+.client {
+    padding-top: 94px;
+}
+.superiority-ikons {
+    width: 270px;
+    height: 120px;
+    background: $background-team-color;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.superiority-img {
+    width: 70px;
+    height: 70px;
+}
+.superiority-titel {
+    margin-top: 0;
+    margin-bottom: 10px;
+
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $main-titel-color;
+}
+.superiority-text {
+    margin: 0;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: $main-text-color;
+}

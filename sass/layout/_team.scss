@@ -1,0 +1,84 @@
+/* Секция Команда */
+.team-item {
+    background-color: $secondary-titel-color;
+    border-radius: 0px 0px 4px 4px;
+    padding-bottom: 24px;
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px
+     rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
+}
+.team-img {
+    margin-bottom: 30px;
+}
+.team-social-icon {
+    width: 20px;
+    height: 20px;
+    fill: #AFB1B8 ;
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.team-social-item:hover .team-social-icon {
+    fill:$secondary-titel-color;
+    cursor: pointer;
+}
+.team-name {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.team-name,
+.team-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $main-titel-color;
+}
+.team-text {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-weight: 400;
+    color: $main-text-color;
+}
+.team {
+    background-color: $background-team-color;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.team-social-list,
+.footer-social-list {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: auto; 
+    width: 206px;
+    height: 44px;
+    justify-content: center;
+}
+
+.team-social-item,
+.team-social-item,
+.footer-social-item,
+.footer-social-item {
+    display: flex;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    justify-content: center; 
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
+}
+.team-social-item:not(:last-child),
+.footer-social-item:not(:last-child) {
+    margin-right: 10px;
+}
+.team-social-item:hover,
+.team-social-item:focus,
+.footer-social-item:hover,
+.footer-social-item:focus {
+    background-color: $akcent-color;
+    cursor: pointer;
+}

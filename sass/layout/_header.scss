@@ -1,0 +1,73 @@
+/* Навигация */
+ .nav-item:not(:last-child) { 
+    margin-right: 50px;
+    padding-left: 0;
+}
+.nav-item {
+    position: relative;
+}
+.studio::after,
+.portfolio::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -31px;
+    display: block;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: $akcent-color;
+}
+.nav {
+    display: flex;
+    align-items: center;
+}
+.nav-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: $main-titel-color;  
+}    
+
+.nav-link,
+.contacts-icon,
+.contacts-text  {
+    transition-property: color, fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.nav-link:hover,
+.nav-link:focus,
+.contacts-link:hover .contacts-icon,
+.contacts-link:focus .contacts-icon,
+.contacts-link:hover .contacts-text,
+.contacts-link:focus .contacts-text {
+    color: $akcent-color; 
+    cursor: pointer;
+    fill: $akcent-color;
+}
+ 
+.contacts-link {
+    color: $main-text-color;
+}
+.header .container {
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+.contacts {
+    margin-left: auto;
+}
+.contacts-icon {
+    width: 16px;
+    height: 11.2px;
+    margin-right: 10px;
+}
+.contacts-link:not(:last-child),
+.superiority-item:not(:last-child),
+.work-item:not(:last-child),
+.team-item:not(:last-child),
+.client-item:not(:last-child) {
+    margin-right: 30px;
+}
