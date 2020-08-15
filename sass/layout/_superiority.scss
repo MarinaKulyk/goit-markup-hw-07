@@ -1,7 +1,9 @@
 /* Секция Преимущества */
-.superiority,
-.client {
+.superiority {
     padding-top: 94px;
+}
+.superiority-item:not(:last-child) {
+  margin-right: 30px;
 }
 .superiority-ikons {
     width: 270px;
@@ -9,9 +11,8 @@
     background: $background-team-color;
     border-radius: 4px;
     margin-bottom: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  
+    @extend %flex-center;
 }
 .superiority-img {
     width: 70px;

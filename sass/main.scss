@@ -1,9 +1,10 @@
 @import "./utils/variables";
+@import "./utils/placeholder";
 @import "./base/base";
+@import "./components/social-link";
 @import "./components/logo";
 @import "./components/container";
 @import "./components/section";
-@import "./components/modal";
 @import "./layout/header";
 @import "./layout/hero";
 @import "./layout/superiority";
@@ -11,9 +12,9 @@
 @import "./layout/team";
 @import "./layout/clients";
 @import "./layout/footer";
-@import "./layout/portfolio/portfolio";
 @import "./layout/portfolio/portfolio-filters";
 @import "./layout/portfolio/portfolio-gallery";
+@import "./components/modal";
 
 
 
